@@ -11,4 +11,4 @@
 deno -A src/create_HTML_pages.js
 
 # formatting all pages
-deno fmt *.html
+deno fmt index.html pages/
