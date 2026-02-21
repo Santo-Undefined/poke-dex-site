@@ -5,8 +5,8 @@ import { makeAllPokemonCardHTML } from "./make_pokemon_HTML_cards.js";
 const HTML_HEAD = `<head>
     <title>Pokedex</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="styles/card-style.css">
-    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="card-style.css">
+    <link rel="stylesheet" href="colors.css">
     <style>
     </style>
   </head>`;
