@@ -46,6 +46,7 @@ const readLocalPokemonData = () => {
 const createTypePages = () => {
   const allPokemonData = readLocalPokemonData();
   for (const type of POKEMON_TYPES) {
+    if (type === "all") continue;
     const pokemonesOfType = filterPokemoneOnType(allPokemonData, type);
     const page = createHTMLpage(pokemonesOfType, type);
 
