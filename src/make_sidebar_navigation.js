@@ -1,7 +1,7 @@
 import { POKEMON_TYPES } from "./pokemone_types.js";
 
 const makePagePath = (type) =>
-  type === "all" ? "./index.html" : `./pages/${type}.html`;
+  type === "all" ? "./index.html" : `./${type}.html`;
 
 const makeTypesNavigation = (pageType) => {
   const navigationHTML = [];

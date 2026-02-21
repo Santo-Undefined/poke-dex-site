@@ -50,7 +50,7 @@ const createTypePages = () => {
     const pokemonesOfType = filterPokemoneOnType(allPokemonData, type);
     const page = createHTMLpage(pokemonesOfType, type);
 
-    Deno.writeTextFileSync(`./pages/${type}.html`, page);
+    Deno.writeTextFileSync(`./${type}.html`, page);
   }
 };
 
